@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- More on Tables
+    Let's take a closer look at HTML tables and delve into some more aspects of using tables in HTML. -->
+
+    <!-- Adding a Caption
+    To add a title to your table, you can use the <caption> element. This element helps both in terms of SEO and accessibility. -->
+    <table>
+        <caption>Student Details</caption>
+        <!-- Rest of the table here -->
+    </table>
+
+    <!-- Table Headers and Footers
+    Besides <th> for individual header cells, HTML tables allow you to group header or footer content using <thead> and <tfoot>. -->
+    <table>
+        <thead>
+            <!--  header content -->
+        </thead>
+        <tfoot>
+            <!-- footer content -->
+        </tfoot>
+        <tbody>
+            <!-- body content -->
+        </tbody>
+    </table>
+
+
+    <!-- Column Groups
+    You can use the <colgroup> and <col> elements to apply styles to an entire column in an HTML table.           -->
+
+    <table>
+        <colgroup>
+            <col style="background-color:yellow">
+        </colgroup>
+        <!-- rest of the table -->
+    </table>
+
+    <!-- Accessibility in Tables
+    To make your tables more accessible, you can use the scope attribute in <th> elements to specify if they are headers for columns, rows, or groups of columns or rows. -->
+    <th scope="col">Name</th>
+    <th scope="col">Age</th>
+</body>
+
+</html>
